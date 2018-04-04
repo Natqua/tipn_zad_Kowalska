@@ -1,4 +1,7 @@
 # tipn_zad_Kowalska
 Zadania- zajęcia trzecie
 
-Moja przygoda z GitHubem zaczęła się 22.03.18r. 
+Jaś pyta się taty:
+- Tato, co to są szanty?
+- Pirackie piosenki, Jasiu.
+- Aaa, to ja mam na komputerze same szanty.
