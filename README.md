@@ -2,6 +2,7 @@
 Zadania- zajęcia trzecie
 
 Jaś pyta się taty:
+
 -Tato, co to są szanty?
 
 -Pirackie piosenki, Jasiu.
