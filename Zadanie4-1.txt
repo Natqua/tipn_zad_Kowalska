@@ -1,0 +1,20 @@
+Odpowiedzi na pytania
+
+Ile jest zmiennych w zbiorze? - 11
+Ile jest obserwacji w zbiorze? - 234
+Co oznacza parametr engine displacement? Co oznacza miles per gallon?
+Engine displacement - pojemnosc silnika w litrach 
+ Miles pre gallon - spalanie silnika: 1 galon (ok. 3,78 litra) na 1 mile
+Co oznaczaj¹ poszczególne zmienne? Zrób listê zmiennych wraz z krótkim opisem, co one oznaczaj¹.
+
+   Manufacturer - producent samochodu 
+   Model - nazwa modelu samochodu
+   Displ - pojemnoœæ silnika samochodu w litrach 
+   Year - rok produkcji samochodu 
+   Cyl - liczba cylindrów 
+   Trans- rodzaj transmisji
+   Drv - f -napêd na przednie ko³a, r to napêd na tylnie ko³a‚a, a 4 napêd na 4 ko³a
+   Cty - spalanie w mieœcie (mil na galon)
+   Hwy - spalanie na autostradzie (mil na galon)
+   Fl - rodzaj paliwa
+   Class - typ samochodu
