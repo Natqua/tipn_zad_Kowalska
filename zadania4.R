@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 library(tidyverse)
 
 # Zad 4-1
@@ -39,3 +40,6 @@ ggplot(data = mpg, aes(x = class, y = displ)) +
 
 
              
+=======
+
+>>>>>>> 65dd3471fed3a9ec45d8527221450cf4cda95c42
