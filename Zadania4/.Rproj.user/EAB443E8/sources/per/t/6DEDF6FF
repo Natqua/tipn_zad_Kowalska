@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1526993855927.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2410290519",
+    "id" : "6DEDF6FF",
+    "lastKnownWriteTime" : 1526416104,
+    "last_content_update" : 1526416104,
+    "path" : "~/GitHub/tipn_zad_Kowalska/Zadania4/zadania4.R",
+    "project_path" : "zadania4.R",
+    "properties" : {
+        "cursorPosition" : "32,0",
+        "scrollLine" : "22"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
