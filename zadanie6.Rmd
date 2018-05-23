@@ -14,7 +14,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-**Taniec towarzyski (z ³ac.ballare, t³um. do tañca) – forma rozrywki wywodz¹ca siê z tañców salonowych i zabaw ludowych, uprawiana od pocz¹tku XX wieku, na pocz¹tku by³ to taniec dla klas uprzywilejowanych, natomiast tañce ludowe pozostawiano klasom ni¿szym. Dziêki muzyce jazz, która sta³a siê bardzo popularna w latach 20., dosz³o do wybuchu nowo wynalezionych tañców. Poszczególne tañce ró¿ni¹ siê pochodzeniem, charakterem, schematem ruchów, ubiorem i muzyk¹. Jest to zestaw tañców partnerskich, od kilkunastu lat cieszy siê popularnoœci¹ równie¿ w Polsce.**
+Taniec towarzyski (z ³ac.ballare, t³um. do tañca) – forma rozrywki wywodz¹ca siê z tañców salonowych i zabaw ludowych, uprawiana od pocz¹tku XX wieku, na pocz¹tku by³ to taniec dla klas uprzywilejowanych, natomiast tañce ludowe pozostawiano klasom ni¿szym. Dziêki muzyce jazz, która sta³a siê bardzo popularna w latach 20., dosz³o do wybuchu nowo wynalezionych tañców. Poszczególne tañce ró¿ni¹ siê pochodzeniem, charakterem, schematem ruchów, ubiorem i muzyk¹. Jest to zestaw tañców partnerskich, od kilkunastu lat cieszy siê popularnoœci¹ równie¿ w Polsce.
 
 ![  ](towarzyski.jpg)
 
