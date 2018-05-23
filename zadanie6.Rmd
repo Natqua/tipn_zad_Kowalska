@@ -4,19 +4,21 @@ title: "Taniec towarzyski"
 author: "Natalia Kowalska"
 date: "Maj 19.05.18r."
 output:
-  html_document:
+  rmarkdown::html_document:
     df_print: paged
     theme: united
     highlight: tango
-    
-    
 ---
 
-Taniec towarzyski (z Å‚ac.ballare, tÅ‚um. do taÅ„ca) â€“ forma rozrywki wywodzÄ…ca siÄ™ z taÅ„cÃ³w salonowych i zabaw ludowych, uprawiana od poczÄ…tku XX wieku, na poczÄ…tku byÅ‚ to taniec dla klas uprzywilejowanych, natomiast taÅ„ce ludowe pozostawiano klasom niÅ¼szym. DziÄ™ki muzyce jazz, ktÃ³ra staÅ‚a siÄ™ bardzo popularna w latach 20., doszÅ‚o do wybuchu nowo wynalezionych taÅ„cÃ³w. PoszczegÃ³lne taÅ„ce rÃ³Å¼niÄ… siÄ™ pochodzeniem, charakterem, schematem ruchÃ³w, ubiorem i muzykÄ…. Jest to zestaw taÅ„cÃ³w partnerskich, od kilkunastu lat cieszy siÄ™ popularnoÅ›ciÄ… rÃ³wnieÅ¼ w Polsce.
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**Taniec towarzyski (z ³ac.ballare, t³um. do tañca) – forma rozrywki wywodz¹ca siê z tañców salonowych i zabaw ludowych, uprawiana od pocz¹tku XX wieku, na pocz¹tku by³ to taniec dla klas uprzywilejowanych, natomiast tañce ludowe pozostawiano klasom ni¿szym. Dziêki muzyce jazz, która sta³a siê bardzo popularna w latach 20., dosz³o do wybuchu nowo wynalezionych tañców. Poszczególne tañce ró¿ni¹ siê pochodzeniem, charakterem, schematem ruchów, ubiorem i muzyk¹. Jest to zestaw tañców partnerskich, od kilkunastu lat cieszy siê popularnoœci¹ równie¿ w Polsce.**
 
 ![  ](towarzyski.jpg)
 
-### Åšwiatowe Turnieje TaÅ„ca Towarzyskiego
+### Œwiatowe turnieje tañca towarzyskiego
 
 1. Blackpool Dance Festival
 2. Asian Open Festival
@@ -30,11 +32,11 @@ Taniec towarzyski (z Å‚ac.ballare, tÅ‚um. do taÅ„ca) â€“ forma rozrywki wywodzÄ…
 10. Supadance Polish Open Championships
 11. UK Open
 
-### TaÅ„ce turniejowe
+### Tañce turniejowe
 
 - walc angielski
-- tango (dawniej taniec latynoamerykaÅ„ski)
-- walc wiedeÅ„ski
+- tango (dawniej taniec latynoamerykañki)
+- walc wiedeñski
 - foxtrot
 - quickstep
 - samba 
@@ -44,18 +46,18 @@ Taniec towarzyski (z Å‚ac.ballare, tÅ‚um. do taÅ„ca) â€“ forma rozrywki wywodzÄ…
 - pasodoble 
 - jive
 
-### TaÅ„ce uÅ¼ytkowe
+### Tañce u¿ytkowe
 
 |american smooth|charleston|rock and roll|bachata|
 |:------:|:-----:|:---------:|:------:|
 |    conga        | salsa      | beguine       |  country-dance|
 |   shimmy        |  blues rock|    Lambeth walk   |slow-fox  |
-|  boogie  |  madison |   tango argentyÅ„skie   |boogie-woogie  |
+|  boogie  |  madison |   tango argentyñskie   |boogie-woogie  |
 | mambo  |  twist | boston   |  merengue|
 | two-step |  calypso | one-step | swing |
 | carioca  |  polka czeska |  kizomba  | reggaeton |
 
-#### [PrzykÅ‚adowy pokaz turniejowy](https://www.youtube.com/watch?v=34vrzq0yizQ)
+#### [Przyk³adowy pokaz turniejowy](https://www.youtube.com/watch?v=34vrzq0yizQ)
 
 ![  ](taniec.jpg)
 
@@ -69,7 +71,7 @@ mtcars
 library(ggplot2)
 ggplot(data = mpg) +
   geom_bar(mapping = aes(x = class, fill= class)) +
-  labs(title = "iloÅ›Ä‡ samochodÃ³w w poszczegÃ³lnych klasach", x = "Klasy", y = "IloÅ›Ä‡") +
+  labs(title = "iloœæ samochodów w poszczególnych klasach", x = "Klasy", y = "Iloœæ") +
   theme_minimal()
 ```
 
@@ -77,13 +79,13 @@ ggplot(data = mpg) +
 library(ggplot2)
 ggplot(data = mpg) + 
   geom_histogram(mapping = aes(displ), bins = 10) +
-  labs(title = "RozkÅ‚ad pojemnoÅ›ci silnika samochodÃ³w", x = "PojemnoÅ›Ä‡", y = "IloÅ›Ä‡ samochodÃ³w")
+  labs(title = "RozkÅ‚ad pojemnoÅ›ci silnika samochodów", x = "Pojemnoœæ", y = "Iloœæ samochodów")
 ```
 
 ```{r}
 kwartal_1<- c("styczen", "luty", "marzec")
 kwartal_2<- c("kwiecien", "maj", "czerwiec")
-kwartal_3<- c("lipiec", "sierpie?", "wrzesien")
+kwartal_3<- c("lipiec", "sierpien", "wrzesien")
 kwartal_4<- c("pazdziernik", "listopad", "grudzien")
 rok<- c(kwartal_1, kwartal_2, kwartal_3, kwartal_4)
 rok[1:12]
@@ -95,5 +97,5 @@ rok[c(1, 2)]
 ggplot(data = mpg, aes(x = class, y = displ)) +
   geom_boxplot() +
   coord_flip() +
-  labs (title = "Samochody", x = "klasa", y = "pojemnoÅ›Ä‡")
+  labs (title = "Samochody", x = "klasa", y = "pojemnoœæ")
 ```
